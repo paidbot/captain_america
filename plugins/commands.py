@@ -40,15 +40,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᏟϴᎷᎷᎪΝᎠՏ❓', callback_data='help'),
-            InlineKeyboardButton('ᎪᏴϴႮͲ🎀', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ🗂️', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 💖', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴅᴇᴠ', url='https://t.me/TGBruh'),
             ],[
-            InlineKeyboardButton('ᏟᏞϴՏᎬ💤', callback_data='close_data')
+            InlineKeyboardButton('✖️ Close ✖️', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -74,7 +74,7 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("🔄 Try Again 👈 Tap me 🥰", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("✅ Done", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text=Script.FORCESUB_TXT,
@@ -85,15 +85,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-         InlineKeyboardButton('+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᏟϴᎷᎷᎪΝᎠՏ❓', callback_data='help'),
-            InlineKeyboardButton('ᎪᏴϴႮͲ🎀', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ🗂️', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 💖', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mksupport1'),
             ],[
-            InlineKeyboardButton('ᏟᏞϴՏᎬ💤', callback_data='close_data')   
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
