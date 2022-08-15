@@ -782,7 +782,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴏɴɢs', callback_data='music'),
             InlineKeyboardButton('sᴛʏʟᴇ ᴛᴇxᴛ', callback_data='st'),  
             ],[
-            InlineKeyboardButton('sᴘᴇᴇᴅ', callback_data='speed'), 
+            InlineKeyboardButton('sᴘᴇᴇᴅ', callback_data='speed'),
+            InlineKeyboardButton('🎗️', callback_data='🎗️'),
             InlineKeyboardButton('ᴛᴛ-sᴘᴇᴄʜ', callback_data='tts'),
             ],[
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='b'),
@@ -869,9 +870,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
             InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='in'),        
             ],[
-            InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄk', callback_data='nest'),
+            InlineKeyboardButton('⏪️ Back', callback_data='nest'),
             InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='help'),
+            InlineKeyboardButton('🏠 Home', callback_data='start'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1560,7 +1561,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('⏪️ Back', callback_data='about'),
-            InlineKeyboardButton('Refresh ♻️', callback_data='rfrsh')
+            InlineKeyboardButton('✖️ Close', callback_data='close')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
