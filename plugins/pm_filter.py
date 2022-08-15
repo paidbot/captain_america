@@ -365,7 +365,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
-                await query.answer(✅ 𝐃𝐨𝐧𝐞. 𝐂𝐡𝐞𝐜𝐤 𝐏𝐌.',show_alert = True)
+                await query.answer('✅ 𝐃𝐨𝐧𝐞. 𝐂𝐡𝐞𝐜𝐤 𝐏𝐌.',show_alert = True)
         except UserIsBlocked:
             await query.answer(f'Hey {query.from_user.first_name}𝐏𝐥𝐞𝐚𝐬𝐞 𝐔𝐧𝐛𝐥𝐨𝐜𝐤 𝐓𝐡𝐞 𝐁𝐨𝐭.',show_alert = True)
         except PeerIdInvalid:
@@ -381,7 +381,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer(f' No such file exist. Send Request Again')
+            return await query.answer(f'No such file exist. Send Request Again')
         files = files_[0]
         title = files.file_name
         size=get_size(files.file_size)
@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('✶ 𝖡𝖺𝖼𝗄', callback_data='photo')
+                InlineKeyboardButton('< 𝖡𝖺𝖼𝗄', callback_data='photo')
              ]]
         ),)
     elif query.data == "stick":
