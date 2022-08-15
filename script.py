@@ -32,7 +32,8 @@ Click On The Help Button For More</b>"""
 ○ Owner: <a href=https://t.me/TGBruh>കുട്ടൂസൻ</a>
 ○ Dev: <a href=https://t.me/ddrabit>LᴀL</a>
 ○ Creator: <a href=https://t.me/AlanWalker_TG>Alan Wlaker TG</a>
-○ Thanks To: <a href=https://t.me/Doctor6689>Cracker TG</a> & <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ </a>
+○ Thanks To: <a href=https://t.me/Doctor6689>Cracker TG</a> 
+○ Thanks To: <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ </a>
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
