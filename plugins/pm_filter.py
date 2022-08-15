@@ -396,7 +396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('🎗️Sʜᴀʀᴇ & Sᴜᴘᴘᴏʀᴛ🎗️', url=f'https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
+                InlineKeyboardButton('🎗️Share & Support🎗️', url=f'https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
             ]
             ]
         await query.answer()
