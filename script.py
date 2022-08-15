@@ -3,7 +3,7 @@ class Script(object):
 
  Mʏ Nᴀᴍᴇ ɪs Mɪᴄʜᴀᴇʟ Jᴀᴄᴋsᴏɴ Iᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ Bᴏᴛ Fᴏʀ Yᴏᴜʀ Gʀᴏᴜᴘs.
 
-<i>𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧.𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫 ⚡</i>
+<i><a href=https://telegram.me/cv_autofilter_bot?startgroup=start>𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧.𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫 ⚡</a></i>
 
 Click On The Help Button For More</b>"""
     
