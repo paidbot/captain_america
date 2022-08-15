@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """Hᴇʟʟᴏ {},
+    START_TXT = """<b>Hᴇʟʟᴏ {},
 
  Mʏ Nᴀᴍᴇ ɪs Mɪᴄʜᴀᴇʟ Jᴀᴄᴋsᴏɴ Iᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ Bᴏᴛ Fᴏʀ Yᴏᴜʀ Gʀᴏᴜᴘs.
 
@@ -7,27 +7,27 @@ class Script(object):
 
 Click On The Help Button For More</b>"""
     
-    A_TXT = """**Welcome To Help Module #1**"""
+    A_TXT = """<b>Welcome To Help Module #1</b>"""
  
-    B_TXT = """**Welcome To Help Module #2**"""
+    B_TXT = """<b>Welcome To Help Module #2</b>"""
 
-    C_TXT = """**Welcome To Help Module #3**"""
+    C_TXT = """<b>Welcome To Help Module #3</b>"""
 
-    D_TXT = """**Welcome To Help Module #4**"""
+    D_TXT = """<b>Welcome To Help Module #4</b>"""
 
-    E_TXT = """**Welcome To Help Module #5**"""
+    E_TXT = """<b>Welcome To Help Module #5</b>"""
 
-    F_TXT = """**Welcome To Help Module #6**"""
+    F_TXT = """<b>Welcome To Help Module #6</b>"""
 
-    G_TXT = """**Welcome To Help Module #7**"""
+    G_TXT = """<b>Welcome To Help Module #7</b>"""
 
-    H_TXT = """"**Welcome To Help Module #8**"""
+    H_TXT = """"<b>Welcome To Help Module #8</b>"""
 
     HELP_TXT = """Hey {}
 
 <b>Hᴇʀᴇ ɪs </b>"""
 
-    ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
+    ABOUT_TXT = """<b>Mʏ ɴᴀᴍᴇ: {}
 ○ Owner: [കുട്ടൂസൻ](t.me/TGbruh)
 ○ Dev: [LᴀL](t.me/ddrabit
 ○ Creator: [Alan Walker TG](t.me/AlanWalker_TG)
@@ -35,7 +35,7 @@ Click On The Help Button For More</b>"""
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
-○ Build Status: v68.0.1 [ Beta ]"""
+○ Build Status: v68.0.1 [ Beta ]</b>"""
     RAJ_TXT = """4th MODULES
 """
     SOURCE_TXT = """<b>Source:</b>
@@ -594,12 +594,11 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """ 
-○ Files: 900670
-○ Users : 5600
-○ Chats:  2507
-○ Used Storage:</b> 259 MIB
-○ Free Storage:</b> 500 MiB"""
+    STATUS_TXT = """Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
+Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱"""
 
     FORCESUB_TXT = """**📢 Join Updates Channel To Use This Bot.**"""
 
