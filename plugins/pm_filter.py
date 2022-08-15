@@ -109,14 +109,14 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer(f"ᴏᴋ sɪʀ", show_alert=True)
+        return await query.answer(f"ᴏᴋ sɪʀ.", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
     if not movies:
         return await query.answer(f"𝐑𝐞𝐬𝐮𝐥𝐭 𝐄𝐱𝐩𝐢𝐫𝐞𝐝.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('🔎 Checking for Movie in My database... 🔎')
+    await query.answer('🔎 Checking Movie in My database...')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
@@ -332,7 +332,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer(f'Hey, {query.from_user.first_name}! No such file exist. Send Request Again')
+            return await query.answer(f'No such file exist.')
         files = files_[0]
         title = files.file_name
         size=get_size(files.file_size)
@@ -347,7 +347,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
+                InlineKeyboardButton('🎗️Share & Support🎗️', url=f'https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
             ]
             ]
             
