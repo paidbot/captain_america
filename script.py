@@ -19,17 +19,23 @@ Click On The Help Button For More</b>"""
 
     F_TXT = """**Welcome To Help Module #6**"""
 
+    G_TXT = """**Welcome To Help Module #7**"""
+
+    H_TXT = """"**Welcome To Help Module #8**"""
+
     HELP_TXT = """Hey {}
 
 <b>Hᴇʀᴇ ɪs </b>"""
 
     ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
- Owner: കുട്ടൂസൻ 
- Dev : Lal
- Language: Phython3
- Data Base: MongoDB
- Bot Server: Heroku
- Build Status: v68.0.1 [ Beta ]"""
+○ Owner: [കുട്ടൂസൻ](t.me/TGbruh)
+○ Dev: [LᴀL](t.me/ddrabit
+○ Creator: [Alan Walker TG](t.me/AlanWalker_TG)
+○ Thanks To: [Cracker TG](buttonurl:t.me/Doctor6689) & [Sanoob Achu](t.me/Sanoob_Achu_18)
+○ Language: Phython3
+○ Data Base: MongoDB
+○ Bot Server: Heroku
+○ Build Status: v68.0.1 [ Beta ]"""
     RAJ_TXT = """4th MODULES
 """
     SOURCE_TXT = """<b>Source:</b>
