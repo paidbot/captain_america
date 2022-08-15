@@ -41,10 +41,10 @@ async def start(client, message):
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/ddrabit'),
             InlineKeyboardButton('Owner ⚡', url='https://t.me/TGBruh'),
             ],[
-            InlineKeyboardButton('🔻 Share & Support 🔺', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -86,10 +86,10 @@ async def start(client, message):
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/ddtabit'),
             InlineKeyboardButton('Owner ⚡', url='https://t.me/TgBruh'),
             ],[
-            InlineKeyboardButton('🔺 Share & Support 🔻', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')   
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
