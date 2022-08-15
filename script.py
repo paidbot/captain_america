@@ -28,10 +28,11 @@ Click On The Help Button For More</b>"""
 <b>Hᴇʀᴇ ɪs </b>"""
 
     ABOUT_TXT = """<b>Mʏ ɴᴀᴍᴇ: {}
-○ Owner: [കുട്ടൂസൻ](t.me/TGbruh)
-○ Dev: [LᴀL](t.me/ddrabit
-○ Creator: [Alan Walker TG](t.me/AlanWalker_TG)
-○ Thanks To: [Cracker TG](buttonurl:t.me/Doctor6689) & [Sanoob Achu](t.me/Sanoob_Achu_18)
+
+○ Owner: <a href=https://t.me/TGBruh>കുട്ടൂസൻ</a>
+○ Dev: <a href=https://t.me/ddrabit>LᴀL</a>
+○ Creator: <a href=https://t.me/AlanWalker_TG>Alan Wlaker TG</a>
+○ Thanks To: <a href=https://t.me/Doctor6689>Cracker TG</a> & <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ </a>
 ○ Language: Phython3
 ○ Data Base: MongoDB
 ○ Bot Server: Heroku
