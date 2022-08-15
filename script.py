@@ -1,32 +1,35 @@
 class Script(object):
     START_TXT = """Hᴇʟʟᴏ {},
 
- Mʏ Nᴀᴍᴇ ɪs ᎷᏦ [ ᏞᏆᏞᏞᎽ ]🔖
-<b>ʜᴇʟʟᴏ ᴍʏ ʙʀᴏᴛʜᴇʀs ᴀɴᴅ sɪsᴛᴇʀs ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ sᴇᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ɢɪᴠᴇ ɴᴇsᴛ ᴀɴᴅ ʀᴇᴀᴅ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴇ ᴛʜᴀᴛ's ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴅᴅ ʏᴏᴜ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ʟɪʟʟʏ ᴀɴᴅ ᴇɴᴊᴏʏ🧰</b>"""
+ Mʏ Nᴀᴍᴇ ɪs Mɪᴄʜᴀᴇʟ Jᴀᴄᴋsᴏɴ Iᴍ ᴀ Pᴏᴡᴇʀғᴜʟʟ Bᴏᴛ Fᴏʀ Yᴏᴜʀ Gʀᴏᴜᴘs.
+
+<i>𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧.𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫 ⚡</i>
+
+Click On The Help Button For More</b>"""
     
-    E_TXT = """hey"""
+    A_TXT = """**Welcome To Help Module #1**"""
  
-    ROG_TXT = """Hello"""
+    B_TXT = """**Welcome To Help Module #2**"""
 
-    D_TXT = """hey"""
+    C_TXT = """**Welcome To Help Module #3**"""
 
-    C_TXT = """hey"""
+    D_TXT = """**Welcome To Help Module #4**"""
 
-    B_TXT = """hey"""
+    E_TXT = """**Welcome To Help Module #5**"""
 
-    A_TXT = """hey"""
+    F_TXT = """**Welcome To Help Module #6**"""
 
     HELP_TXT = """Hey {}
 
-<b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Cᴏᴍᴍᴀɴᴅs.</b>"""
+<b>Hᴇʀᴇ ɪs </b>"""
 
     ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
-➥ Cʀᴇᴀᴛᴏʀ: @Doctor6689
-➥  Hᴇʟᴘᴇʀ : ɴᴏ sɪɴɢʟᴇ ᴘᴇʀsᴏɴ ɴᴇᴇᴅ ᴛᴏ ʜᴇʟᴘ
-➥ Language: Eɴɢʟɪsʜ
-➥ Data Base: Pʀɪᴠᴀᴛᴇ
-➥ Bot Server: Pʀɪᴠᴀᴛᴇ
-➥ Build Status: v68.0.1 [ Beta ]"""
+ Owner: കുട്ടൂസൻ 
+ Dev : Lal
+ Language: Phython3
+ Data Base: MongoDB
+ Bot Server: Heroku
+ Build Status: v68.0.1 [ Beta ]"""
     RAJ_TXT = """4th MODULES
 """
     SOURCE_TXT = """<b>Source:</b>
@@ -39,7 +42,7 @@ Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ Cᴏᴘ�
 - Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ Cʀᴀᴄᴋᴇʀ  ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
 
 <b>NOTE:</b>
-1. Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+1. Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 2. Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ.
 3. Aʟᴇʀᴛ ʙᴜᴛᴛᴏɴs ʜᴀᴠᴇ ᴀ ʟɪᴍɪᴛ ᴏғ 64 ᴄʜᴀʀᴀᴄᴛᴇʀs.
 
@@ -104,7 +107,7 @@ Feds are now divided into 3 sections for your ease.
 ✪ /fedadminhelp*:* Provides help for fed administration commands
 ✪ /feduserhelp*:* Provides help for commands anyone can use
 
-🔱 Fed Admins:*
+Admins:*
 ✪  fban <user> <reason>*:* Fed bans a user
 ✪  /unfban <user> <reason>*:* Removes a user from a fed ban
 ✪  /fedinfo <fed_id>*:* Information about the specified Federation
@@ -116,7 +119,7 @@ Feds are now divided into 3 sections for your ease.
 ✪  /fedchats*:* Get all the chats that are connected in the Federation
 ✪  /chatfed *:* See the Federation in the current chat
 
-💫Fed Owner Only:*
+Owner Only:*
 ✪  /newfed <fed_name>*:* Creates a Federation, One allowed per user
 ✪  /renamefed <fed_id> <new_fed_name>*:* Renames the fed id to a new name
 ✪  /delfed <fed_id`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
@@ -217,10 +220,10 @@ Aɴᴛɪғʟᴏᴏᴅ* ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴛᴀᴋᴇ ᴀᴄᴛɪ�
 ❍ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ 
 *Commmands*
  ❍ /fsub {ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ} - Tᴏ ᴛᴜʀɴ ᴏɴ ᴀɴᴅ sᴇᴛᴜᴘ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ.
-  💡Dᴏ ᴛʜɪs ғɪʀsᴛ...
+  Dᴏ ᴛʜɪs ғɪʀsᴛ...
  ❍ /fsub- Tᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs.
  ❍ /fsubdisable - Tᴏ ᴛᴜʀɴ ᴏғ FᴏʀᴄᴇSᴜʙsᴄʀɪʙᴇ..
-  💡Iғ ʏᴏᴜ ᴅɪsᴀʙʟᴇ ғsᴜʙ, ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ sᴇᴛ ᴀɢᴀɪɴ ғᴏʀ ᴡᴏʀᴋɪɴɢ.. /ғsᴜʙ {ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ} 
+  Iғ ʏᴏᴜ ᴅɪsᴀʙʟᴇ ғsᴜʙ, ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ sᴇᴛ ᴀɢᴀɪɴ ғᴏʀ ᴡᴏʀᴋɪɴɢ.. /ғsᴜʙ {ᴄʜᴀɴɴᴇʟ ᴜsᴇʀɴᴀᴍᴇ} 
  ❍ /fsubclear - Tᴏ ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴍᴜᴛᴇᴅ ʙʏ ᴍᴇ.
 """ 
     SPTP_TXT = """
@@ -263,7 +266,7 @@ vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 /covid ᴄʜɪɴᴀ
 """
     NEST_TXT = """
-♬ 3Ʀᖱ ៣០ᖱ៩ɭ៩ន"""      
+♬ 3rd"""      
     RULES_TXT = """
 ❍ /rules*:* ɢᴇᴛ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.
 *Aᴅᴍɪɴs ᴏɴʟʏ:*
@@ -408,11 +411,11 @@ Aᴅᴍɪɴs ᴏɴʟʏ:*
 
     BUTTON_TXT = """Help: <b>Bᴜᴛᴛᴏɴs</b>
 
-- Mᴋ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
+- Bᴏᴛ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
 
 Nᴏᴛᴇ
 Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ.
-2. Mᴋ  sᴜᴘᴘᴏʀᴛs ʙᴜᴛᴛᴏɴs ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
+2. Bᴏᴛ  sᴜᴘᴘᴏʀᴛs ʙᴜᴛᴛᴏɴs ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. Bᴜᴛᴛᴏɴs sʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀsᴇᴅ ᴀs ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ."""
 
     AUTOFILTER_TXT = """Help: <b>Aᴜᴛᴏ Fɪʟᴛᴇʀs</b>
@@ -458,7 +461,7 @@ Pᴀsᴛᴇ sᴏᴍᴇ ᴛᴇxᴛs ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛs ᴏɴ ᴀ ᴡ�
 • /paste [reply] - ᴘᴀsᴛᴇ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴇxᴛ ᴏɴ Pᴀsᴛʏ
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -471,7 +474,7 @@ Dᴏ ᴀs ʏᴏᴜ ᴡɪsʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟ�
 
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -486,7 +489,7 @@ Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴏᴍᴇᴛʜɪɴɢ !
 
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -498,9 +501,9 @@ Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀ�
 • /tr [language code][reply] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
-• ʟɪʟʟʏ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
+• ʙᴏᴛ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
 
 
     SEARCH_TXT = """Help: <b>Iᴍᴅʙ</b>
@@ -513,7 +516,7 @@ Sᴇᴀʀᴄʜ ᴍᴀɴʏ ᴛʜɪɴɢs ᴡɪᴛʜᴏᴜᴛ ʟᴇᴀᴠɪɴɢ ᴛ
 
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Mᴏʀᴇ sᴇᴀʀᴄʜ ᴛᴏᴏʟs ᴄᴀɴ ʙᴇ ғᴏᴜɴᴅ ᴏɴ ɪɴʟɪɴᴇ.
 • Tʜᴏsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ."""
 
@@ -525,7 +528,7 @@ Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ
 • /purge - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ғʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ  Cᴜʀʀᴇɴᴛ Mᴇssᴀɢᴇ.
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
 
@@ -561,7 +564,9 @@ Aʟʟ ᴛʜᴇ ᴘɪɴ ʀᴇʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ 
 
 
 <b>NOTE:</b>
-• IMDʙ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• ɪᴍᴅʙ
+
+• IMDb sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴʟʏ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
 
@@ -584,20 +589,13 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /broadcast - to broadcast a message to all users."""
 
     STATUS_TXT = """ 
-  █▀ ▀█▀ ▄▀█ ▀█▀ █▀
-▄█ ░█░ █▀█ ░█░ ▄█
+○ Files: 900670
+○ Users : 5600
+○ Chats:  2507
+○ Used Storage:</b> 259 MIB
+○ Free Storage:</b> 500 MiB"""
 
-🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 900670
-👥Total users : 5600
-💖Total Chats:  2507
-⛽Used Storage:</b> 259 MIB
-🛢️Free Storage:</b> 500 MiB"""
-
-    FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
-
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
-
-**👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
+    FORCESUB_TXT = """**📢 Join Updates Channel To Use This Bot.**"""
 
     MEMES_TXT = """Help: 
 ʜᴇʀᴇ sᴏᴍᴇ ғᴜɴs ᴀʀᴇ ᴛʜᴇʀᴇ ᴛʀʏ ᴏᴜᴛ ɴᴏᴡ
@@ -610,7 +608,7 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 • /runs sᴛʀɪɴɢs
 
 <b>NOTE:</b>
-• IMDʙ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -625,7 +623,7 @@ Sᴏᴍᴇ URLs ɪs Sʜᴏʀᴛɴᴇʀ
 <code>/short https://t.me/mksupport1</code>
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -637,7 +635,7 @@ Sᴏᴍᴇ URLs ɪs Sʜᴏʀᴛɴᴇʀ
 • /tts - Rᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴀs ᴀᴜᴅɪᴏ.
 
 <b>NOTE:</b>
-• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -666,7 +664,7 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 /ᴘʟᴀʏ ʀᴀᴋɪᴛᴀ ʀᴀᴋɪᴛᴀ
 
 <b>NOTE:</b>
-•Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
@@ -709,7 +707,7 @@ Name - {}"""
 • /inkick ʟᴏɴɢ_ᴛɪᴍᴇ_ᴀɢᴏ - ᴛᴏ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏғғʟɪɴᴇ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ ᴀ ᴍᴏɴᴛʜ ᴀɴᴅ Dᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛs.
 • /dkick - to ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs."""
 
-    CREATOR_REQUIRED = """❗You have to be the group creator to do that."""
+    CREATOR_REQUIRED = """You have to be the group owner to do that."""
       
     INPUT_REQUIRED = "❗ **Arguments Required**"
       
@@ -717,7 +715,7 @@ Name - {}"""
       
     START_KICK = """🚮 Removing inactive members this may take a while..."""
       
-    ADMIN_REQUIRED = """❗I am not an admin here\n__Leaving this chat, add me again as admin with ban user permission."""
+    ADMIN_REQUIRED = """I am not an admin here\n__Leaving this chat, add me again as admin with ban user permission."""
       
     DKICK = """✔️ Kicked {} Deleted Accounts Successfully."""
       
