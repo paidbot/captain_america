@@ -20,11 +20,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔥ႮᏢᎠᎪͲᎬՏ', url='https://t.me/mksupport1')
-            ],
-            [
-                InlineKeyboardButton('ᎻᎬᏞᏢ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton('ᏟᏞϴՏᎬ✗', callback_data="close_data"),
+                InlineKeyboardButton('✖️ Close ✖️', callback_data='close_data')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,13 +38,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴅᴇᴠ', url='https://t.me/TGBruh'),
+            InlineKeyboardButton('🔍 Search ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Owner ⚡', url='https://t.me/TGBruh'),
             ],[
-            InlineKeyboardButton('✖️ Close ✖️', callback_data='close_data')
+            InlineKeyboardButton('🔻 Share & Support 🔺', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -87,13 +83,13 @@ async def start(client, message):
         buttons = [[
          InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Owner ⚡', url='https://t.me/TgBruh'),
             ],[
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')   
+            InlineKeyboardButton('🔺 Share & Support 🔻', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -133,10 +129,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 🔥', url='https://t.me/mksupport1'),
-                ],
-                [
-                    InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/firstshowers')
+                    InlineKeyboardButton('🔅 SHARE & SUPPORT 🔅', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot'),
                 ]
                 ]
             try:
@@ -236,10 +229,7 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 🔥', url='https://t.me/mksupport1'),
-        ],
-        [
-            InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/firstshowers')
+            InlineKeyboardButton('🔅 SHARE & SUPPORT 🔅', url='https://t.me/share/url?url=https://t.me/cv_autofilter_bot')
         ]
         ]
     await client.send_cached_media(
