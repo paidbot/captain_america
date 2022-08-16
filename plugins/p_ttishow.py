@@ -54,7 +54,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply_text(
-            text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n",
+            text=f"<b>👋 Hi! {u.mention}, Welcome to {message.chat.title}\n\n𝙷𝙾𝚆 𝚃𝙾 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙼𝙾𝚅𝙸𝙴𝚂..?\n\n𝐈𝐭𝐬 𝐒𝐢𝐦𝐩𝐥𝐞 𝐉𝐮𝐬𝐭 𝐒𝐞𝐧𝐝 𝐓𝐡𝐞 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩. 𝐀𝐝𝐝 𝐘𝐞𝐚𝐫 & 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐅𝐨𝐫 𝐁𝐞𝐭𝐭𝐞𝐫 𝐑𝐞𝐬𝐮𝐥𝐭𝐬.\n\n• ʀᴇǫᴜᴇsᴛ ᴏɴʟʏ ɪɴ ᴇɴɢʟɪsʜ.\n• ʏᴏᴜʀ ғᴏɴᴛ sᴛʏʟᴇ ʜᴀs ᴛᴏ ʙᴇ ɴᴏʀᴍᴀʟ.\n• ᴅᴏ ɴᴏᴛ ᴜsᴇ sᴘᴇᴄɪᴀʟ ᴄʜᴀʀᴀᴄᴛᴇʀs.\n\nType :\n\nKGF ✅\nKGF 2022 ✅\nKGF Malayalam ✅\nKGF Movie ❌\nKGF Malayalam Dubbed ❌</b>",
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(zaute))
 
@@ -70,7 +70,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Okay, I've Got It 🤝', callback_data='close_data')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
