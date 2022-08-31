@@ -649,8 +649,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
-            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
+            InlineKeyboardButton('🧞‍♂️ CHANNEL', url='https://t.me/BroMoviesOfficial'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+XuUytdZC56ViNWE9'),
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
