@@ -36,13 +36,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/cv_autofilter_bot?startgroup=start')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/BromoviessBot?startgroup=start')
             ],[
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/ddrabit'),
-            InlineKeyboardButton('Owner ⚡', url='https://t.me/TGBruh'),
+            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
+            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
@@ -80,16 +80,16 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/cv_autofilter_bot?startgroup=start')
+        buttons =  [[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/BromoviessBot?startgroup=start')
             ],[
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/ddtabit'),
-            InlineKeyboardButton('Owner ⚡', url='https://t.me/TgBruh'),
+            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
+            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
             ],[
-            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')   
+            InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
