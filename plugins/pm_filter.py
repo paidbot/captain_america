@@ -643,14 +643,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
-        buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕ ', url=f'https://telegram.me/cv_autofilter_bot?startgroup=start')
+        buttons =  [[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/BromoviessBot?startgroup=start')
             ],[
-            InlineKeyboardButton('🛠️ ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ ', callback_data='about')
+            InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/ddrabit'),
-            InlineKeyboardButton('Owner ⚡', url='t.me/TGBruh'),
+            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
+            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
