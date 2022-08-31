@@ -2,7 +2,7 @@
 
 Press Below Button to Deploy!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Devikaiii/MJ)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/paidbot/captain_america)
 ## 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
 
 - 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂,
