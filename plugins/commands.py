@@ -41,8 +41,8 @@ async def start(client, message):
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
-            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
+            InlineKeyboardButton('🧞‍♂️ CHANNEL', url='https://t.me/BroMoviesOfficial'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+XuUytdZC56ViNWE9'),
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
@@ -80,14 +80,14 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons =  [[
+        buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://telegram.me/BromoviessBot?startgroup=start')
             ],[
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🧞‍♂️ Dev', url='t.me/alanwalker_tg'),
-            InlineKeyboardButton('Owner ⚡', url='t.me/BrooHost'),
+            InlineKeyboardButton('🧞‍♂️ CHANNEL', url='https://t.me/BroMoviesOfficial'),
+            InlineKeyboardButton('GROUP', url='https://t.me/+XuUytdZC56ViNWE9'),
             ],[
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat='')
         ]]
